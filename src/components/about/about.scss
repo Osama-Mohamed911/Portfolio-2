@@ -130,13 +130,14 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+
         gap: 5px;
         .skill {
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          width: 48%;
+          width: 32%;
           padding: 20px;
           background-color: rgba(0, 0, 0, 0.514);
           border-radius: 10px;

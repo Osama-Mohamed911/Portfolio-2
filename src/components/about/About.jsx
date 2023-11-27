@@ -8,7 +8,16 @@ import {
   FaSass,
   FaReact,
 } from "react-icons/fa";
-import { SiJquery, SiNextdotjs } from "react-icons/si";
+
+import {
+  SiJquery,
+  SiNextdotjs,
+  SiRedux,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa6";
+
 const About = () => {
   return (
     <div className="about">
@@ -56,7 +65,7 @@ const About = () => {
               <div className="line"></div>
             </div>
           </Fade>
-          <Fade duration={1000} direction="right">
+          <Fade duration={3000}>
             <div className="skills-container">
               <div className="skill">
                 <div className="icon">
@@ -78,9 +87,23 @@ const About = () => {
               </div>
               <div className="skill">
                 <div className="icon">
+                  <SiTypescript style={{ fontSize: "25px", color: "orange" }} />
+                </div>
+                <span>TypeScript</span>
+              </div>
+              <div className="skill">
+                <div className="icon">
                   <FaBootstrap style={{ fontSize: "30px", color: "orange" }} />
                 </div>
                 <span>BootStrap</span>
+              </div>
+              <div className="skill">
+                <div className="icon">
+                  <SiTailwindcss
+                    style={{ fontSize: "30px", color: "orange" }}
+                  />
+                </div>
+                <span>Tailwind CSS</span>
               </div>
               <div className="skill">
                 <div className="icon">
@@ -90,9 +113,21 @@ const About = () => {
               </div>
               <div className="skill">
                 <div className="icon">
+                  <FaGitAlt style={{ fontSize: "30px", color: "orange" }} />
+                </div>
+                <span>Git</span>
+              </div>
+              <div className="skill">
+                <div className="icon">
                   <FaReact style={{ fontSize: "30px", color: "orange" }} />
                 </div>
                 <span>React js</span>
+              </div>
+              <div className="skill">
+                <div className="icon">
+                  <SiRedux style={{ fontSize: "25px", color: "orange" }} />
+                </div>
+                <span>Redux Toolkit</span>
               </div>
               <div className="skill">
                 <div className="icon">

@@ -6,6 +6,35 @@ import { FiExternalLink } from "react-icons/fi";
 const Portfolio = () => {
   const items = [
     {
+      id: 7,
+      title: "DealDazzle e-commerce",
+      image: "./dealdazzle.png",
+      desc: " E-commerce responsive web application with cart and wishlist and payment feature. ",
+      tools: [
+        {
+          id: 41,
+          name: "Next js",
+        },
+        {
+          id: 42,
+          name: "TailwindCSS",
+        },
+        {
+          id: 43,
+          name: "TypeScript",
+        },
+        {
+          id: 45,
+          name: "Redux-Toolkit",
+        },
+        {
+          id: 44,
+          name: "Stripe",
+        },
+      ],
+      href: "https://deal-dazzle.vercel.app/",
+    },
+    {
       id: 1,
       title: "The Moviez Lab",
       image: "./themoviezlab.png",
