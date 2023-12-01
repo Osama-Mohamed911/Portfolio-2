@@ -141,6 +141,14 @@
           padding: 20px;
           background-color: rgba(0, 0, 0, 0.514);
           border-radius: 10px;
+          @include mobile {
+            width: 48%;
+          }
+          span {
+            @include mobile {
+              font-size: 14px;
+            }
+          }
         }
       }
     }

@@ -76,12 +76,18 @@
         }
         h2 {
           font-size: 30px;
+          @include mobile {
+            font-size: 25px;
+          }
         }
         ul {
           list-style: none;
           display: flex;
           flex-wrap: wrap;
           margin-top: 20px;
+          @include mobile {
+            justify-content: center;
+          }
           li {
             padding: 8px;
             margin-right: 8px;

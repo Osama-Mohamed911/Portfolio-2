@@ -52,7 +52,7 @@ const About = () => {
               <span>Mail :</span>osamaamohammed911@gmail.com
             </li>
           </ul>
-          <a href="./Osama Mohamed CV.pdf" download>
+          <a href="./OsamaMohamed CV.pdf" download>
             Download CV
           </a>
         </div>
